@@ -1,0 +1,44 @@
+.contact-info {
+    padding: 5rem 0;
+
+    &.flex {
+        align-items: flex-start;
+    }
+
+    @media screen and (max-width: 768px) { 
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+.contact-item {
+    text-align: center;
+    width: 400px;
+
+    i {
+        font-size: 2rem;
+    }
+
+    h3 {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    } 
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: #ff4079;
+    }
+
+    @media screen and (max-width: 768px) { 
+        width: 300px;
+        margin: 3rem 0;
+    }
+}
+
+.map {
+    margin-bottom: 5rem;
+}

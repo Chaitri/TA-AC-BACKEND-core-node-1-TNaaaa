@@ -1,0 +1,33 @@
+.about-info {
+    margin-top: 3rem;
+}
+
+.about-content {
+
+    img {
+        width: 40%;
+        margin: 3rem 0;
+    }
+
+    p {
+        
+        margin: 3rem 0;
+        margin-left: 5rem;
+    }
+
+    @media screen and (max-width: 768px) { 
+
+        &.flex {
+            flex-direction: column;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            margin: 3rem 0;
+        }
+
+    }
+}
